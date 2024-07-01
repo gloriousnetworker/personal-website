@@ -1,0 +1,73 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1, h2 {
+    margin: 0.5em 0;
+}
+
+/* Profile section */
+#profile {
+    padding: 1em;
+    text-align: center;
+}
+
+#profile img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Goals section */
+#goals {
+    padding: 1em;
+}
+
+#goals ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Links section */
+#links {
+    padding: 1em;
+}
+
+#links ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#links li {
+    margin: 0.5em 0;
+}
+
+#links a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+/* Responsive design */
+@media (min-width: 600px) {
+    #profile, #goals, #links {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 900px) {
+    #profile, #goals, #links {
+        width: 60%;
+    }
+}
