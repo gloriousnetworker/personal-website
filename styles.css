@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: aliceblue;
 }
 
 header {
@@ -32,6 +33,8 @@ h1, h2 {
 /* Goals section */
 #goals {
     padding: 1em;
+    border-radius: 1em;
+    /*background-color: #542889;*/
 }
 
 #goals ul {
